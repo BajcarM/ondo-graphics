@@ -1,5 +1,5 @@
-import { WavesComponentOptions } from '.'
 import { ForwardedRef, HTMLAttributes } from 'react'
+import { WavesComponentOptions } from '@ondo-graphics/waves'
 
 export type {
   FillOptions,
@@ -7,7 +7,7 @@ export type {
   StrokeOptions,
   WaveOptions,
   WavesComponentOptions,
-} from '../../waves/src/types'
+} from '@ondo-graphics/waves'
 
 /**
  * Helper for converting camel case to kebab case

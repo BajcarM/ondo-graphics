@@ -6,7 +6,7 @@ import { OGWavesPropsWithRef } from './types'
  */
 async function loadOnClient() {
   try {
-    const { registerWavesComponent } = await import('../../waves/src/Waves')
+    const { registerWavesComponent } = await import('@ondo-graphics/waves')
     registerWavesComponent()
   } catch (error) {
     // Handle any errors that occur during the import or registration
