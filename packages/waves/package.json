@@ -1,0 +1,77 @@
+{
+  "name": "@ondo-graphics/waves",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Create smoothly animated assets with ease",
+  "author": "Michal Bajcar",
+  "license": "MIT",
+  "homepage": "https://github.com/BajcarM/ondo-graphics.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BajcarM/ondo-graphics.git",
+    "directory": "packages/waves"
+  },
+  "bugs": {
+    "url": "https://github.com/BajcarM/ondo-graphics/issues"
+  },
+  "keywords": [
+    "fluid",
+    "smooth",
+    "animate",
+    "noise",
+    "motion",
+    "animation",
+    "animated",
+    "assets",
+    "liquid",
+    "dynamic",
+    "morph",
+    "morphing",
+    "morphable",
+    "morphable",
+    "morphing",
+    "morphable",
+    "waves"
+  ],
+  "type": "module",
+  "main": "./dist/fluid-svg.umd.cjs",
+  "module": "./dist/fluid-svg.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/fluid-svg.js"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/fluid-svg.umd.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/blocks": "^7.1.1",
+    "@storybook/web-components": "^7.1.1",
+    "@storybook/web-components-vite": "^7.1.1",
+    "@types/node": "^20.4.1",
+    "lit": "^2.7.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.1.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vite-plugin-dts": "^3.2.0"
+  }
+}
