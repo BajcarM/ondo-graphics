@@ -16,7 +16,7 @@ import {
   mapRange,
   updateWaveShape,
 } from './functions/waves/waveFunctions'
-import { WaveOptions } from './Waves.types'
+import { WaveOptions } from './types'
 import { NoiseFunction3D, createNoise3D } from './functions/utils/simplexNoise'
 import { WaveShape } from './functions'
 

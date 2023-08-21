@@ -53,7 +53,7 @@ export function createOpenCubicSpline(points: Vector2D[], tension = 2): string {
 
   let d = `M ${start[0]},${start[1]} `
 
-  for (let i = 2; i < points.length - 2; i++) {
+  for (let i = 2; i < points.length - 1; i++) {
     const [x0, y0] = points[i - 2]
     const [x1, y1] = points[i - 1]
     const [x2, y2] = points[i]

@@ -1,4 +1,4 @@
-import { WavesComponentOptions } from './Waves.types'
+import { WavesComponentOptions } from './types'
 
 export const defaultOptions: WavesComponentOptions = {
   background: {

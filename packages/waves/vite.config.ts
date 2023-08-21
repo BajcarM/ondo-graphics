@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'fluid-svg',
-      fileName: 'fluid-svg',
+      name: 'waves',
+      fileName: 'waves',
     },
   },
   plugins: [dts()],

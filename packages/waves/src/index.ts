@@ -1,11 +1,10 @@
 export type {
   FillOptions,
   LinearGradientOptions,
-  ShadowOptions,
   StrokeOptions,
   WaveOptions,
   WavesComponentOptions,
-} from './Waves.types'
+} from './types'
 
 export * from './defaultOptions'
 export * from './Waves'

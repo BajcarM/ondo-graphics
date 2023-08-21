@@ -37,9 +37,9 @@ export type LinearGradientOptions = {
   }[]
 }
 
-export type ShadowOptions = {
-  dx?: number
-  dy?: number
-  stdDeviation?: number
-  floodColor?: string
-}
+// type ShadowOptions = {
+//   dx?: number
+//   dy?: number
+//   stdDeviation?: number
+//   floodColor?: string
+// }
