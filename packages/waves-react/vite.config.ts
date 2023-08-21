@@ -6,16 +6,18 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   plugins: [
     react(),
+
     dts({
       insertTypesEntry: true,
+      include: ['src/'],
     }),
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve('src', 'index.ts'),
       name: 'waves-react',
       formats: ['es', 'umd'],
-      fileName: `waves-react`,
+      fileName: (format) => `waves-react.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
