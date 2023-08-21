@@ -1,7 +1,7 @@
 {
   "name": "@ondo-graphics/waves-react",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create smoothly animated assets with ease",
   "author": "Michal Bajcar",
   "license": "MIT",
@@ -34,18 +34,18 @@
     "waves"
   ],
   "type": "module",
-  "main": "./dist/waves-react.umd.cjs",
-  "module": "./dist/waves-react.js",
+  "main": "./dist/waves-react.umd.js",
+  "module": "./dist/waves-react.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/waves-react.js"
+        "default": "./dist/waves-react.mjs"
       },
       "require": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/waves-react.umd.cjs"
+        "default": "./dist/waves-react.umd.js"
       }
     }
   },
