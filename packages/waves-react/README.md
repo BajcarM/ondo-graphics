@@ -1,53 +1,67 @@
-# Fluid SVG
+# ondo-graphics
 
-Create fluidly moving or animating SVG elements for modern websites with ease.
+Create fluidly moving assets for modern websites with ease.
 
-## Introduction
-
-Fluid-Motion is an npm package that provides a set of functions and components to create smooth and seamless animations for SVG elements. While there are many options available for static SVG shapes, there are few solutions that allow you to achieve fluid and dynamic motion. This package aims to fill that gap, making it easy to bring life to your SVG graphics on any modern website.
+In the world of web design, static shapes are plenty, but achieving fluid and dynamic motion often requires specialized solutions. This package aims to bridge that gap, making it effortless to infuse vitality into any modern website.
 
 ## Features
 
-- **Fluid Motion Functions**: The package includes a variety of functions that enable you to create smooth, fluid animations for SVG elements. These functions can be used standalone or combined to achieve complex motion effects.
-
-- **Framework Support**: Fluid-Motion is designed to be compatible with popular frameworks such as Vanilla JS, React, Vue, and more. It provides dedicated components tailored to each framework, allowing you to seamlessly integrate fluid motion into your projects.
-
-- **Written in TypeScript**: The entire package is written in TypeScript, ensuring strong typing and enhancing the development experience. TypeScript support enables autocompletion, type checking, and improved code documentation.
+- **Zero Dependency**: The package includes everything needed to function, eliminating concerns about additional dependencies.
+- **Compact Size**: At around 10kb gzipped, it ensures optimal website performance.
+- **Framework Compatibility**: Engineered to seamlessly integrate with popular frameworks including Vanilla JS, React, Vue, Svelte, and more. It offers dedicated components tailored to each framework.
+- **TypeScript-based**: The entire package is crafted using TypeScript, enhancing type safety and developer experience.
 
 ## Installation
 
-To install Fluid-Motion, simply run the following command:
-
-```bash
-npm i @fluid-svg/functions
+```shell
+$ npm i @ondo-graphics/waves-react
 ```
 
 ## Usage
 
-Here's a basic example of how you can use the Fluid-Motion package in your project:
+Customize your coponent using the [configurator](https://www.ondo.graphics/). Then, integrate the generated code snippet into your markup:
 
-```html
-<!-- Add simple HTML markup -->
-<svg id="MySvg" height="500" width="500" xmlns="http://www.w3.org/2000/svg">
-  <path stroke="blue" strokeWidth="0.005" />
-  <path stroke="red" strokeWidth="0.005" />
-  <path stroke="green" strokeWidth="0.005" />
-</svg>
+```jsx
+import { OGWaves } from '@ondo-graphics/waves-react'
+
+const options = {
+  background: {
+    fill: {
+      color: 'rgba(0, 0, 0, 1)',
+    },
+  },
+  distribution: [2, 8],
+  amplitude: 1,
+  speed: 2,
+  complexity: 1,
+  synchronicity: 7,
+  waves: [
+    {
+      fill: {
+        color: 'rgba(233, 255, 0, 1)',
+      },
+    },
+    {
+      fill: {
+        color: 'rgba(0, 0, 0, 1)',
+      },
+    },
+  ],
+}
+
+const Component = () => <OGWaves {...options} />
 ```
-
-```javascript
-import { animateWaves } from '@fluid-svg/functions'
-
-// Animate an SVG element
-animateWaves('#MySvg')
-```
-
-For more detailed usage instructions and examples, refer to the documentation provided in the docs directory.
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request. For more information on how to contribute, check out the Contribution Guidelines.
+Contributions are highly appreciated! Should you encounter any issues or have suggestions for enhancements, please don't hesitate to reach out.
+
+## Support
+
+Creating and maintaining this project requires substantial effort. If you find it valuable, consider showing your support by buying me a coffee.
+
+[<a href="https://www.buymeacoffee.com/bajcarmx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="48" width="174"></a>](https://www.buymeacoffee.com/bajcarmx)
 
 ## License
 
-Fluid-Motion is licensed under the MIT License. See the LICENSE file for more details.
+Ondo-Graphics is licensed under the MIT License.

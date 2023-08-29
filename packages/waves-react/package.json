@@ -1,7 +1,7 @@
 {
   "name": "@ondo-graphics/waves-react",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create smoothly animated assets with ease",
   "author": "Michal Bajcar",
   "license": "MIT",
