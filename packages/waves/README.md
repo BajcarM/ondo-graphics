@@ -1,4 +1,4 @@
-![Example Gif](./readme-img.gif)
+![Example Gif](../../readme-img.gif)
 
 # ondo-graphics
 

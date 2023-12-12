@@ -1,5 +1,7 @@
 # ondo-graphics
 
+Beta for React Framework
+
 Create fluidly moving assets for modern websites with ease.
 
 In the world of web design, static shapes are plenty, but achieving fluid and dynamic motion often requires specialized solutions. This package aims to bridge that gap, making it effortless to infuse vitality into any modern website.
