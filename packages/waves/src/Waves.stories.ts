@@ -55,7 +55,7 @@ export const Template: StoryObj = {
       style="height: 1000px; width: 1000px; display: block; border: 1px solid black;
 
       margin-inline: auto;"
-      background=${JSON.stringify({
+      background="${JSON.stringify({
         linearGradient: {
           direction: 'toRight',
           colors: [
@@ -73,7 +73,7 @@ export const Template: StoryObj = {
             },
           ],
         },
-      })}
-      waves=${JSON.stringify(WAVE_OPTIONS)}
+      })}"
+      waves="${JSON.stringify(WAVE_OPTIONS)}"
     ></og-waves>`,
 }
