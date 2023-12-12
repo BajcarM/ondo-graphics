@@ -1,3 +1,5 @@
+![Example Gif](./readme-img.gif)
+
 # ondo-graphics
 
 Create fluidly moving assets for modern websites with ease.
@@ -36,18 +38,7 @@ Customize your coponent using the [configurator](https://www.ondo.graphics/). Th
   complexity="2"
   synchronicity="5"
   amplitude="1"
-  waves="[
-    {
-      'fill': {
-        'color': 'rgba(233, 255, 0, 1)'
-      }
-    },
-    {
-      'fill': {
-        'color': 'rgba(0, 0, 0, 1)'
-      }
-    }
-  ]"
+  waves="[{'fill': {'color': 'rgba(233, 255, 0, 1)'}},{'fill': {'color': 'rgba(0, 0, 0, 1)'}}]"
 ></og-waves>
 ```
 
